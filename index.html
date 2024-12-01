@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="secciones">
+        <div class="parte1">
+            <form action="#" class="formulario">
+                <label for="txt_cliente">Cliente:</label>
+                <input id="txt_cliente" type="text" placeholder="Nombre completo">
+                <br>
+                <input type="checkbox" name="cbox_tortas" id="cbox_tortas">
+                <label for="cbox_tortas">Tortas</label>
+                
+                <br>
+                <input type="checkbox" name="cbox_tacos" id="cbox_tacos">
+                <label for="cbox_tacos">Tacos</label>
+                <br>
+                <input type="button" value="Envíar" id="btn_enviar">
+                
+                
+        
+            </form>
+        </div>
+        <div class="parte2">
+            <form class="formulario">
+                <h4>Eliminar pedido</h4>
+                <label for="txt_eliminar">Número de pedido:</label>
+                <input type="text" id="txt_eliminar">
+                <input type="button" value="Eliminar" id="btn_eliminar">
+                <br>
+                <br>
+                <h4>Atualizar pedido</h4>
+                <label for="txt_actualizar">Número de pedido:</label>
+                <input type="text" id="txt_actualizar">
+                <input type="button" value="Actualizar" id="btn_actualizar">
+            </form>
+        </div>
+    </div>
+    
+    <div class="lista_de_pedidos">
+        <table class="tabla" id="tabla_pedidos">
+            <tr>
+                <th>Número de pedido</th>
+                <th>Cliente</th>
+                <th>Tipo de orden</th>
+                <th>Fecha de pedido</th>
+                <th>Total a pagar</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

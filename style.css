@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.secciones{
+    display: flex;
+}
+
+.secciones div{
+    width: 50vw;
+}
+
+.formulario{
+    padding: 35px;
+    height: 35vh;
+    background-color: rgb(190, 244, 243);
+}
+
+
+.tabla{
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
